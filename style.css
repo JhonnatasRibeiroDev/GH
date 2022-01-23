@@ -41,14 +41,14 @@ background-color: rgb(255, 255, 255);
 transition: .4s;
 }
 main{
-    padding: 15px 0px;
+    padding: 15px ;
     display: flex;
     max-width: 920px;
    
     margin: auto;
 }
 .conteudo-principal{
-    margin-right: 10px;
+    
     width: 640px;
     
  
@@ -131,6 +131,7 @@ footer{
     background-color: rgb(173, 173, 173);
     text-align: center;
     padding: 10px;
+    font-size: 10px;
 
 }
 footer a{
@@ -142,5 +143,14 @@ footer a{
    .conteudo-lista{
        display: none;
    } 
-   
+   nav{
+       padding: 1px;
+       background-color: rgba(255, 255, 0, 0.24);
+   }
+   nav a{
+       display: inline-flex;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0px;
+   }
 }
