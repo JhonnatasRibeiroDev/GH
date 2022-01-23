@@ -139,7 +139,13 @@ footer a{
     text-decoration: none;
 }
 @media (max-width:600px){
-   .conteudo-lista{
-       display: none;
-   } 
-}
+    .conteudo-lista{
+        display: none;
+    } 
+    main{
+        display: block;
+    }
+    h1{
+        color: yellow;
+    }
+ }
