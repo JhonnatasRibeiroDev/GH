@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+body{
+background-color: rgb(221, 221, 221);
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 196, 0);
+}
+h1{
+    font-weight: bolder;
+    color: rgb(56, 56, 56);
+    font-size: 50px;
+}
+div h2{
+    color: rgb(255, 208, 0);
+}
+h1 > span{
+
+    font-weight: normal;
+    color: white;
+}
+nav{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+nav a{
+    text-decoration:none;
+    margin: 0px 10px;
+    padding:10px;
+color: white;
+}
+nav a:hover{
+    border-radius: 5px;
+    color: rgb(255, 196, 0);
+background-color: rgb(255, 255, 255);
+transition: .4s;
+}
+main{
+    padding: 15px 0px;
+    display: flex;
+    max-width: 920px;
+   
+    margin: auto;
+}
+.conteudo-principal{
+    margin-right: 10px;
+    width: 640px;
+    
+ 
+}
+    img{
+        width: 100%;
+    }
+.post{
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-bottom: 2px solid rgb(255, 187, 0);
+}
+.conteudo-principal h2{
+padding-left:20px ;
+padding-top:10px;
+}
+.conteudo-principal span{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.conteudo-principal a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(180, 140, 6);
+}
+.conteudo-principal p{
+    text-align: justify;
+}
+.conteudo-lista{
+    height: 400px;
+    margin-left: 10px;
+    width: 360px;
+    
+}
+.recentes{
+    padding: 10px;
+    background-color: white;
+    margin-bottom:20px;
+}
+.recentes p, .recentes a{
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.conteudo-lista a{
+    color: rgb(226, 173, 0);
+}
+ .conteudo-principal img{
+    padding: 20px 0px;
+}
+hr{
+    margin: 7px 0px;
+}
+.categorias{
+    padding: 10px;
+    background-color: white;
+
+}
+.categorias a{
+    padding: 5px 
+10px;
+    display: block;
+    text-decoration:none;
+}
+main span{
+display: block;
+}
+.conteudo-lista h2{
+    color: rgb(92, 91, 91);
+    background-color: rgb(231, 230, 230);
+    padding:5px 10px;
+    font-size: 14px;
+}
+.conteudo-lista p{
+    font-size: 13px;
+}
+footer{
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+    padding: 10px;
+
+}
+footer a{
+    color: white;
+    font-weight:bolder;
+    text-decoration: none;
+}
+@media (max-width:600px){
+   .conteudo-lista{
+       display: none;
+   } 
+}
